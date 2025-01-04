@@ -1,11 +1,12 @@
 const speed = 0.05;
 const iconCategory = 0x0008;
+const ROOT_DIR = "https://hazeeeeeel.github.io/wcantb/";
 
 class Icon {
     
     constructor(x, y) {
         this.id = Math.floor(Math.random() * 5);
-        this.sprite = "../assets/icon/" + this.id + ".png";
+        this.sprite = ROOT_DIR + "assets/icon/" + this.id + ".png";
         var options = {
             friction: 0,
             frictionAir: 0,

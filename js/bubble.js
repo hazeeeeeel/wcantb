@@ -16,6 +16,8 @@ popup_bubble,
 p_img,
 popup_footnotes;
 
+const ROOT_DIR = "https://hazeeeeeel.github.io/wcantb/";
+
 window.addEventListener('load', function() {
     popup_container = document.getElementById('popup');
     btn_close_popup = document.getElementById('btn-close-popup');
@@ -62,14 +64,14 @@ class Bubble {
                 dimensions = bubbleDimensions_csp[cspCount];
 
                 index = cspCount;
-                sprite = '../assets/csp/bubbles/' + cspCount + '.png';
-                mask = '../assets/csp/bubbles/filter-gray/' + cspCount + '.png';
+                sprite = ROOT_DIR + 'assets/csp/bubbles/' + cspCount + '.png';
+                mask = ROOT_DIR + 'assets/csp/bubbles/filter-gray/' + cspCount + '.png';
                 Bubble.cspCount++;
             } else {
                 dimensions = bubbleDimensions_csp[0];
                 index = 0;
-                sprite = '../assets/csp/bubbles/0.png';
-                mask = '../assets/csp/bubbles/filter-gray/0.png';
+                sprite = ROOT_DIR + 'assets/csp/bubbles/0.png';
+                mask = ROOT_DIR + 'assets/csp/bubbles/filter-gray/0.png';
                 Bubble.cspCount = 1;
             }
         } else if (team == "sso") {
@@ -80,14 +82,14 @@ class Bubble {
             if (ssoCount < ssoTotal) {
                 dimensions = bubbleDimensions_sso[ssoCount];
                 index = ssoCount;
-                sprite = '../assets/sso/bubbles/' + ssoCount + '.png';
-                mask = '../assets/sso/bubbles/filter-gray/' + ssoCount + '.png';
+                sprite = ROOT_DIR + 'assets/sso/bubbles/' + ssoCount + '.png';
+                mask = ROOT_DIR + 'assets/sso/bubbles/filter-gray/' + ssoCount + '.png';
                 Bubble.ssoCount++;
             } else {
                 dimensions = bubbleDimensions_sso[0];
                 index = 0;
-                sprite = '../assets/sso/bubbles/0.png';
-                mask = '../assets/sso/bubbles/filter-gray/0.png';
+                sprite = ROOT_DIR + 'assets/sso/bubbles/0.png';
+                mask = ROOT_DIR + 'assets/sso/bubbles/filter-gray/0.png';
                 Bubble.ssoCount = 1;
             }
         } else {
