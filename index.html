@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet">
+        <link rel="icon" href="/favicon2.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prepare for: Who Can Afford Not to Buy</title>
+        <link href="./css/prepare.css" rel="stylesheet">
+        <link href="./css/main.css" rel="stylesheet">
+        <script type="text/javascript" src="../lib/p5.js"></script>
+        <script type="text/javascript" src="./lib/matter.js"></script>
+        <script type="text/javascript" src="../lib/matter-collision-events.js"></script>
+        <!-- <script type="text/javascript" src="./js/bubble.js"></script> -->
+        <script type="text/javascript" src="./js/icon.js"></script>
+        <script type="text/javascript" src="./js/border.js"></script>
+        <script type="text/javascript" src="./js/prepare.js"></script>
+        <script src="./lib/localforage.js"></script>
+    </head>
+    <body>
+        <div class = "navigation">
+            <div id="title-container">
+                <div id="title">
+                    <a href="./prepare.html">
+                        <img src="./assets/UI/UI-title.png"/>
+                    </a>
+                </div>
+                <div id="menu">
+                    <div id="about" class="navigation-button">
+                        <a href="./about.html">
+                            <img src="./assets/UI/UI-about.png"/>
+                        </a>
+                    </div>
+                    <button id="how" class="navigation-button" onclick="showPopupInst()">
+                    <!-- <a href="./how.html"> -->
+                            <img src="./assets/UI/UI-how.png" />
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <div class="container" id="container-about">
+            <div class="ui-col">
+                <div class="about-wrap cinetype-regular">
+                    <div class="about-text">
+                        <p>On the one hand, as a graphic designer, I need to advertise myself through my appearances and social media account. On the other hand, as an individual, I feel lost in the swift revolving trends and hashtags.</p>
+                        <p></br></p>
+                        <p>What I am really looking for is a new way to look at shopping. With my doubts toward this ideal image that social media advertisement created, can I achieve something different through shopping? Alternatively, how can I express my subjectivity (separately from so-called personal identity as a social construction) other than through shopping?</p>
+                    </div>
+                </div>
+                <div id="about-boxing-brain">
+                    <div id="boxing-brain">
+                        <img id="boxing-gif" src="./assets/boxing.gif"/>
+                    </div>
+                    <a id="start-button" href="argue.html">
+                        <!-- <img id="start-button-block" src="./assets/UI/UI-startbutton.png"/> -->
+                        <img id="start-button-text" src="./assets/UI/UI-starttext.png"/>
+                    </a>
+                </div>
+                <div class="about-wrap cinetype-regular">
+                    <div class="about-text">
+                        <p id="with-illustration">This is a presentation of my own conflicting thoughts about consumer culture and personal identity.
+                        </br></br>I have had this debate going on in my head for years. On the one side is my desire to attain or pretend "a better self" through cyber shopping; on the other is my sanity that raises doubts against consumerism, trending aesthetics and influencer culture.
+                        </p>
+                        <div id="brain-graph">
+                            <img src='./assets/brain.png'/>
+                        </div>
+                        
+
+                    </div>
+                    <img id="brain-zoom" src='./assets/zoom.png'/>
+                </div>
+            </div>
+            <div class="interface" id="interface-about">
+                <div id="bubble-container">
+
+                </div>
+                <main>
+                </main>
+                <div class="popup-container" id="popup-instruction">
+                    <div class="popup-content" id="inst-popup">
+                        <button class="btn-close" id="btn-close-popup-inst" onclick="closePopupInst()">
+                            <img src="./assets/UI/UI-close.png" alt="close"/>
+                        </button>
+                        <div id="inst-img">
+                            <img src="./assets/inst.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
