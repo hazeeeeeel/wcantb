@@ -30,7 +30,7 @@ I have had this debate going on in my head for years. On the one side is my desi
 ---
 
 ### Demo
-![Research Process](src/screenshot2.png)
+![Research Process](src/screenshot1.png)
 ![Research Process](src/screenshot3.jpg)
 
 
