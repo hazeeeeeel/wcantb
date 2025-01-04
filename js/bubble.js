@@ -16,7 +16,7 @@ popup_bubble,
 p_img,
 popup_footnotes;
 
-const ROOT_DIR = "https://hazeeeeeel.github.io/wcantb/";
+// const ROOT_DIR = "https://hazeeeeeel.github.io/wcantb/";
 
 window.addEventListener('load', function() {
     popup_container = document.getElementById('popup');
