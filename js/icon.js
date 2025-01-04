@@ -1,6 +1,6 @@
 const speed = 0.05;
 const iconCategory = 0x0008;
-const ROOT_DIR = "https://hazeeeeeel.github.io/wcantb/";
+// const ROOT_DIR = "https://hazeeeeeel.github.io/wcantb/";
 
 class Icon {
     
